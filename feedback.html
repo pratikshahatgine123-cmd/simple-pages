@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Hub | Feedback</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ede9fe, #dbeafe);
+            min-height: 100vh;
+        }
+
+        nav {
+            background: linear-gradient(90deg, #6d28d9, #2563eb);
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .card {
+            width: 450px;
+            background: white;
+            margin: 60px auto;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+        }
+
+        h1 {
+            text-align: center;
+            color: #5b21b6;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 7px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        textarea {
+            height: 110px;
+            resize: none;
+        }
+
+        .rating {
+            text-align: center;
+            font-size: 32px;
+            letter-spacing: 5px;
+            color: #f59e0b;
+            margin: 10px 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px;
+            margin-top: 22px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(90deg, #6d28d9, #2563eb);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">🎓 Student Hub</div>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="feedback.html">Feedback</a>
+        </div>
+    </nav>
+
+    <div class="card">
+
+        <h1>Share Your Feedback ⭐</h1>
+
+        <p class="subtitle">We would love to hear from you</p>
+
+        <form>
+
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Your Rating</label>
+
+            <div class="rating">
+                ★ ★ ★ ★ ★
+            </div>
+
+            <label>Feedback</label>
+            <textarea placeholder="Write your feedback here..."></textarea>
+
+            <button type="submit">Submit Feedback</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
+
