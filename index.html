@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Hub | Home</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f3ff;
+            color: #222;
+        }
+
+        nav {
+            background: linear-gradient(90deg, #6d28d9, #2563eb);
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ddd6fe;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .hero-box {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            color: #5b21b6;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #2563eb;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 30px;
+            background: linear-gradient(90deg, #6d28d9, #2563eb);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">🎓 Student Hub</div>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="feedback.html">Feedback</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-box">
+
+            <h1>Welcome to <span>Student Hub</span></h1>
+
+            <p>
+                A simple and user-friendly platform where students
+                can manage their account and access useful services easily.
+            </p>
+
+            <a href="login.html" class="btn">Get Started →</a>
+
+        </div>
+    </section>
+
+</body>
+</html>
